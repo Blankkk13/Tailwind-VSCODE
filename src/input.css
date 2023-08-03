@@ -7,3 +7,10 @@
     margin:0 auto;
     padding: 1.5rem;
 }
+
+@layer components{
+.header .header__actions{
+   @apply lg:hidden
+}
+}
+  

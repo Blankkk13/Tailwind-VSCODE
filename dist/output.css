@@ -568,6 +568,32 @@ video {
   }
 }
 
+@media (min-width: 1024px) {
+  .header .header__actions {
+    display: none;
+  }
+}
+
+.absolute {
+  position: absolute;
+}
+
+.right-\[0\] {
+  right: 0;
+}
+
+.ml-\[\.5rem\] {
+  margin-left: .5rem;
+}
+
+.mr-\[\.5rem\] {
+  margin-right: .5rem;
+}
+
+.ml-\[1rem\] {
+  margin-left: 1rem;
+}
+
 .block {
   display: block;
 }
@@ -576,20 +602,28 @@ video {
   display: flex;
 }
 
+.\!h-\[35vh\] {
+  height: 35vh !important;
+}
+
 .h-\[\.2rem\] {
   height: .2rem;
 }
 
-.h-\[20rem\] {
-  height: 20rem;
+.h-\[0vh\] {
+  height: 0vh;
 }
 
-.h-full {
-  height: 100%;
+.h-\[full\] {
+  height: full;
 }
 
-.w-\[1rem\] {
-  width: 1rem;
+.w-\[1\.5rem\] {
+  width: 1.5rem;
+}
+
+.w-\[100\%\] {
+  width: 100%;
 }
 
 .w-\[2rem\] {
@@ -598,6 +632,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.flex-row {
+  flex-direction: row;
 }
 
 .flex-col {
@@ -624,8 +662,33 @@ video {
   gap: 2rem;
 }
 
+.gap-\[\] {
+  gap: ;
+}
+
+.gap-\[1\.5rem\] {
+  gap: 1.5rem;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-y-scroll {
+  overflow-y: scroll;
+}
+
+.rounded-\[20\%\] {
+  border-radius: 20%;
+}
+
 .rounded-full {
   border-radius: 9999px;
+}
+
+.bg-blue-950 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(23 37 84 / var(--tw-bg-opacity));
 }
 
 .bg-gurey {
@@ -638,12 +701,36 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.text-center {
-  text-align: center;
+.p-\[\.5rem\] {
+  padding: .5rem;
+}
+
+.p-\[0\.5rem\] {
+  padding: 0.5rem;
+}
+
+.align-middle {
+  vertical-align: middle;
 }
 
 .text-\[1\.5rem\] {
   font-size: 1.5rem;
+}
+
+.text-\[2rem\] {
+  font-size: 2rem;
+}
+
+.text-\[4rem\] {
+  font-size: 4rem;
+}
+
+.text-\[0\.5rem\] {
+  font-size: 0.5rem;
+}
+
+.text-\[1rem\] {
+  font-size: 1rem;
 }
 
 .text-light {
@@ -651,8 +738,31 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-\[\] {
+  color: ;
+}
+
+.text-\[2re\] {
+  color: 2re;
+}
+
+.text-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+.duration-\[\.5s\] {
+  transition-duration: .5s;
+}
+
 .container {
   max-width:130rem;
   margin:0 auto;
   padding: 1.5rem;
 }
+
+.hover\:bg-asul:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 102 184 / var(--tw-bg-opacity));
+}
+  
